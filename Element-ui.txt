@@ -1,0 +1,15 @@
+下载：
+	cnpm i element-ui@1.0.9
+
+mian的js：
+	import Element from 'element-ui'
+ 	import 'element-ui/lib/theme-default/index.css'
+ 	Vue.use(Element)
+
+less:
+	cnpm install less-loader less --save-dev
+
+
+设置display属性为none（消失），或者设置visibility属性为hidden（隐藏/占位）、
+
+变小手： cursor: pointer;
